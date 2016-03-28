@@ -1,0 +1,583 @@
+ccopy_reg
+_reconstructor
+p0
+(cpandas.core.frame
+DataFrame
+p1
+c__builtin__
+object
+p2
+Ntp3
+Rp4
+(dp5
+S'_metadata'
+p6
+(lp7
+sS'_typ'
+p8
+S'dataframe'
+p9
+sS'_data'
+p10
+g0
+(cpandas.core.internals
+BlockManager
+p11
+g2
+Ntp12
+Rp13
+((lp14
+cpandas.core.index
+_new_Index
+p15
+(cpandas.core.index
+Index
+p16
+(dp17
+S'data'
+p18
+cnumpy.core.multiarray
+_reconstruct
+p19
+(cnumpy
+ndarray
+p20
+(I0
+tp21
+S'b'
+p22
+tp23
+Rp24
+(I1
+(L2L
+tp25
+cnumpy
+dtype
+p26
+(S'O8'
+p27
+I0
+I1
+tp28
+Rp29
+(I3
+S'|'
+p30
+NNNI-1
+I-1
+I63
+tp31
+bI00
+(lp32
+VAnswer
+p33
+aVClue
+p34
+atp35
+bsS'name'
+p36
+Nstp37
+Rp38
+ag15
+(cpandas.core.index
+Int64Index
+p39
+(dp40
+g18
+g19
+(g20
+(I0
+tp41
+g22
+tp42
+Rp43
+(I1
+(L100L
+tp44
+g26
+(S'i8'
+p45
+I0
+I1
+tp46
+Rp47
+(I3
+S'<'
+p48
+NNNI-1
+I-1
+I0
+tp49
+bI00
+S'\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x00\x00\x00\x00\r\x00\x00\x00\x00\x00\x00\x00\x0e\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x12\x00\x00\x00\x00\x00\x00\x00\x13\x00\x00\x00\x00\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x15\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x00\x00\x00\x00\x00\x18\x00\x00\x00\x00\x00\x00\x00\x19\x00\x00\x00\x00\x00\x00\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x1c\x00\x00\x00\x00\x00\x00\x00\x1d\x00\x00\x00\x00\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00!\x00\x00\x00\x00\x00\x00\x00"\x00\x00\x00\x00\x00\x00\x00#\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x00\x00\x00\x00\x00%\x00\x00\x00\x00\x00\x00\x00&\x00\x00\x00\x00\x00\x00\x00\'\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00)\x00\x00\x00\x00\x00\x00\x00*\x00\x00\x00\x00\x00\x00\x00+\x00\x00\x00\x00\x00\x00\x00,\x00\x00\x00\x00\x00\x00\x00-\x00\x00\x00\x00\x00\x00\x00.\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x000\x00\x00\x00\x00\x00\x00\x001\x00\x00\x00\x00\x00\x00\x002\x00\x00\x00\x00\x00\x00\x003\x00\x00\x00\x00\x00\x00\x004\x00\x00\x00\x00\x00\x00\x005\x00\x00\x00\x00\x00\x00\x006\x00\x00\x00\x00\x00\x00\x007\x00\x00\x00\x00\x00\x00\x008\x00\x00\x00\x00\x00\x00\x009\x00\x00\x00\x00\x00\x00\x00:\x00\x00\x00\x00\x00\x00\x00;\x00\x00\x00\x00\x00\x00\x00<\x00\x00\x00\x00\x00\x00\x00=\x00\x00\x00\x00\x00\x00\x00>\x00\x00\x00\x00\x00\x00\x00?\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00A\x00\x00\x00\x00\x00\x00\x00B\x00\x00\x00\x00\x00\x00\x00C\x00\x00\x00\x00\x00\x00\x00D\x00\x00\x00\x00\x00\x00\x00E\x00\x00\x00\x00\x00\x00\x00F\x00\x00\x00\x00\x00\x00\x00G\x00\x00\x00\x00\x00\x00\x00H\x00\x00\x00\x00\x00\x00\x00I\x00\x00\x00\x00\x00\x00\x00J\x00\x00\x00\x00\x00\x00\x00K\x00\x00\x00\x00\x00\x00\x00L\x00\x00\x00\x00\x00\x00\x00M\x00\x00\x00\x00\x00\x00\x00N\x00\x00\x00\x00\x00\x00\x00O\x00\x00\x00\x00\x00\x00\x00P\x00\x00\x00\x00\x00\x00\x00Q\x00\x00\x00\x00\x00\x00\x00R\x00\x00\x00\x00\x00\x00\x00S\x00\x00\x00\x00\x00\x00\x00T\x00\x00\x00\x00\x00\x00\x00U\x00\x00\x00\x00\x00\x00\x00V\x00\x00\x00\x00\x00\x00\x00W\x00\x00\x00\x00\x00\x00\x00X\x00\x00\x00\x00\x00\x00\x00Y\x00\x00\x00\x00\x00\x00\x00Z\x00\x00\x00\x00\x00\x00\x00[\x00\x00\x00\x00\x00\x00\x00\\\x00\x00\x00\x00\x00\x00\x00]\x00\x00\x00\x00\x00\x00\x00^\x00\x00\x00\x00\x00\x00\x00_\x00\x00\x00\x00\x00\x00\x00`\x00\x00\x00\x00\x00\x00\x00a\x00\x00\x00\x00\x00\x00\x00b\x00\x00\x00\x00\x00\x00\x00c\x00\x00\x00\x00\x00\x00\x00'
+p50
+tp51
+bsg36
+Nstp52
+Rp53
+a(lp54
+g19
+(g20
+(I0
+tp55
+g22
+tp56
+Rp57
+(I1
+(L2L
+L100L
+tp58
+g29
+I00
+(lp59
+VTORY
+p60
+aVEDGE
+p61
+aVWOODSY
+p62
+aVDOZEN
+p63
+aVILIAD
+p64
+aVVINCE
+p65
+aVANGER
+p66
+aVKORAN
+p67
+aVPAEAN
+p68
+aVJEDI
+p69
+aVEBON
+p70
+aVSAWN
+p71
+aVTYNE
+p72
+aVSINUS
+p73
+aVKNEE
+p74
+aVDOSE
+p75
+aVPEON
+p76
+aVECOL
+p77
+aVDENY
+p78
+aVORING
+p79
+aVSTEAL
+p80
+aVCOHERE
+p81
+aVVEEJAY
+p82
+aVSMART
+p83
+aVTYLER
+p84
+aVROONE
+p85
+aVNFLER
+p86
+aVAVOW
+p87
+aVSITE
+p88
+aVCHIN
+p89
+aVDEL
+p90
+aVREND
+p91
+aVTESS
+p92
+aVDRUM
+p93
+aVBAG
+p94
+aVACURA
+p95
+aVANNE
+p96
+aVODEA
+p97
+aVMOTEL
+p98
+aVACED
+p99
+aVMOA
+p100
+aVRIO
+p101
+aVTLC
+p102
+aVOYL
+p103
+aVEBRO
+p104
+aVOOHS
+p105
+aVGET
+p106
+aVABIES
+p107
+aVESSAY
+p108
+aVNAH
+p109
+aVNEHI
+p110
+aVSPAT
+p111
+aVNEA
+p112
+aVSON
+p113
+aVCIO
+p114
+aVESE
+p115
+aVWERE
+p116
+aVNERO
+p117
+aVSCOT
+p118
+aVASSTS
+p119
+aVTAD
+p120
+aVEEOC
+p121
+aVDAM
+p122
+aVRNA
+p123
+aVUNLATCHES
+p124
+aVMECCA
+p125
+aVADM
+p126
+aVAMO
+p127
+aVCOW
+p128
+aVUTERI
+p129
+aVRELIC
+p130
+aVALLOK
+p131
+aVOENO
+p132
+aVDAUB
+p133
+aVSLOES
+p134
+aVELEV
+p135
+aVBRAN
+p136
+aVSTASH
+p137
+aVTEN
+p138
+aVINESSENCE
+p139
+aVETHOS
+p140
+aVSHIN
+p141
+aVHYPO
+p142
+aVNANU
+p143
+aVSHERWOOD
+p144
+aVANEW
+p145
+aVTYSON
+p146
+aVAGER
+p147
+aVACCRA
+p148
+aVNILES
+p149
+aVTOOTS
+p150
+aVBERET
+p151
+aVERASE
+p152
+aVCRT
+p153
+aVGOO
+p154
+aVETC
+p155
+aVDIVA
+p156
+aVGATES
+p157
+aVTODO
+p158
+aVOLIN
+p159
+aVWhig's rival
+p160
+aVAdd a fringe to
+p161
+aVSuggestive of a forest
+p162
+aVEgg purchase
+p163
+aVTale of Troy
+p164
+aVCoach Lombardi
+p165
+aVRile up
+p166
+aVImam's book
+p167
+aVSong of praise
+p168
+aV"Star Wars" warrior
+p169
+aVBlack, poetically
+p170
+aVCut, as a log
+p171
+aVNewcastle's river
+p172
+aVSkull cavity
+p173
+aVWhere pants may be worn
+p174
+aVTwo caplets, say
+p175
+aVWorking stiff
+p176
+aVTree hugger's subj.
+p177
+aVDeclare untrue
+p178
+aVCircular gasket
+p179
+aVSuper bargain
+p180
+aVStick together
+p181
+aVMTV figure
+p182
+aVLike some bombs
+p183
+aVTippecanoe's mate
+p184
+aVTV exec Arledge
+p185
+aVN.Y. Jet or Phila. Eagle
+p186
+aVAdmit openly
+p187
+aVPlace to build
+p188
+aVGossip
+p189
+aVActor Benicio ___ Toro
+p190
+aVTear
+p191
+aV"___ of the D'Urbervilles"
+p192
+aVBongo or conga
+p193
+aVBellhop's burden
+p194
+aVIntegra maker
+p195
+aVDiarist Frank
+p196
+aVConcert halls
+p197
+aV"Vacancy" sign site
+p198
+aVGot 100 on
+p199
+aVExtinct bird
+p200
+aVBrazilian hot spot
+p201
+aVPampering, briefly
+p202
+aVOlive ___
+p203
+aVSaragossa's river
+p204
+aVCircusgoers' sounds
+p205
+aVUnderstand
+p206
+aV"___ Irish Rose"
+p207
+aVEnglish assignment
+p208
+aVSlangy refusal
+p209
+aVClassic soda brand
+p210
+aVTiff
+p211
+aVPBS funder
+p212
+aVIII, to Jr.
+p213
+aVA.F.L. merger partner
+p214
+aVSuffix with Peking
+p215
+aV"___ #1!"
+p216
+aVClaudius's successor
+p217
+aVHighlander
+p218
+aVBus. aides
+p219
+aVLittle bit
+p220
+aVFair-hiring org.
+p221
+aVRiver regulator
+p222
+aVGenetic stuff
+p223
+aVOpens, as a gate
+p224
+aVHajji's destination
+p225
+aVNimitz or Halsey: Abbr.
+p226
+aVLatin 101 verb
+p227
+aVIt's no bull
+p228
+aVWombs
+p229
+aVArchaeologist's find
+p230
+aVFree of problems
+p231
+aVWine: Prefix
+p232
+aVPaint crudely
+p233
+aVPlumlike fruits
+p234
+aVMtn. stat
+p235
+aVFiber source
+p236
+aVNarc's discovery
+p237
+aVHamilton's bill
+p238
+aVFundamentally
+p239
+aVGroup values
+p240
+aVTibia's locale
+p241
+aVDoc's needle
+p242
+aVHalf an Orkan farewell
+p243
+aVForest name
+p244
+aVFrom the top
+p245
+aVEx-champ Mike
+p246
+aVAntiquing agent
+p247
+aVCapital of Ghana
+p248
+aVFrasier's brother
+p249
+aVWhistle blasts
+p250
+aVSpecial Forces cap
+p251
+aVWipe clean
+p252
+aVPC component
+p253
+aVGloppy stuff
+p254
+aVList ender
+p255
+aVMet star
+p256
+aVBoarding areas
+p257
+aVCommotion
+p258
+aVLena of "Chocolat"
+p259
+atp260
+ba(lp261
+g15
+(g16
+(dp262
+g18
+g19
+(g20
+(I0
+tp263
+g22
+tp264
+Rp265
+(I1
+(L2L
+tp266
+g29
+I00
+(lp267
+g33
+ag34
+atp268
+bsg36
+Nstp269
+Rp270
+a(dp271
+S'0.14.1'
+p272
+(dp273
+S'axes'
+p274
+g14
+sS'blocks'
+p275
+(lp276
+(dp277
+S'mgr_locs'
+p278
+c__builtin__
+slice
+p279
+(I0
+I2
+I1
+tp280
+Rp281
+sS'values'
+p282
+g57
+sasstp283
+bsb.
